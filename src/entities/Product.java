@@ -1,8 +1,8 @@
 package entities;
 
 public class Product {
-	String name;
-	Double price;
+	private String name;
+	private Double price;
 	
 	public Product(){
 	}

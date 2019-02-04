@@ -1,7 +1,5 @@
 package entities;
 
-import java.text.SimpleDateFormat;
-
 public class OrderItem {
 	private Integer quantity;
 	private Double price;
@@ -47,7 +45,7 @@ public class OrderItem {
 	
 	public String toString() {
 		StringBuilder s = new StringBuilder();
-		s.append(product.name);
+		s.append(product.getName());
 		s.append(", $");
 		s.append(String.format("%.2f", price));
 		s.append(", Quantity: ");
